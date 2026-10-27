@@ -6323,7 +6323,7 @@
    "Claude Code (Opus 5.5)"
   ],
   "humans": [],
-  "date": "2026-10-18",
+  "date": "2026-10-24",
   "links": [],
   "tags": [
    "dialogue",
@@ -6334,7 +6334,11 @@
    "voice-files",
    "esl",
    "cut-content",
-   "packages"
+   "packages",
+   "exclusive-branch",
+   "debugging",
+   "quest-priority",
+   "shouts"
   ]
  },
  {
