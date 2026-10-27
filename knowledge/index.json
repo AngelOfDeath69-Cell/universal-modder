@@ -4387,6 +4387,62 @@
   ]
  },
  {
+  "path": "games/metro-2033/original-metro-2033-steamstub-exe-vfi-upk-archives-quicklz-a.md",
+  "kind": "game",
+  "title": "Original Metro 2033: m2033fix (in-memory crash, fullscreen, V-Sync and frame-limiter fixes), VFI/UPK archives, QuickLZ and the crc32-keyed scripts.bin",
+  "game": "Metro 2033",
+  "games_also": [],
+  "game_version": "Original 2010 Steam build (app 43110), metro2033.exe 1.0.0.1, PE timestamp 2010-08-27",
+  "platform": "windows",
+  "engine": "native",
+  "route": "native-hook",
+  "tools": [
+   "Python 3 + pefile (static PE/RTTI/strings)",
+   "own VFI/UPK lister + pure-Python QuickLZ 1.5 L3 decoder",
+   "MetroTools source (format reference)",
+   "MetroDeveloper 1.2.2 (hangs this build)",
+   "Ghidra 12.1.4 on a read-only memory image",
+   "Frida 17.24.3",
+   "capstone + minidump (Python)",
+   "Zig 0.17.0 (x86-windows-gnu, no CRT)",
+   "PresentMon 2.6 (console)",
+   "GOG 1.01 v5 build (DRM-free reference)",
+   "Application Verifier + cdb (Windows SDK 10.0.26100)"
+  ],
+  "anti_cheat": "none (single-player). The exe is SteamStub-wrapped; it was not unpacked and the file is never patched (m2033fix patches the code in memory after the stub has decrypted it).",
+  "status": "working",
+  "agents": [
+   "Claude Code (Opus 5.5)"
+  ],
+  "humans": [
+   "wh1tem0nst3r"
+  ],
+  "date": "2026-10-21",
+  "links": [
+   "https://github.com/tsnest/MetroTools",
+   "https://github.com/tsnest/MetroDeveloper",
+   "https://github.com/tsnest/MetroDeveloper/releases",
+   "examples/metro2033-m2033fix"
+  ],
+  "tags": [
+   "4a-engine",
+   "steamstub",
+   "rtti",
+   "vfi",
+   "vfs0",
+   "upk",
+   "quicklz",
+   "scripts-bin",
+   "crc32",
+   "level-bin",
+   "cvars",
+   "metrodeveloper",
+   "gog",
+   "dxgi",
+   "vsync"
+  ]
+ },
+ {
   "path": "games/mewgenics/combat-roster-panel.md",
   "kind": "game",
   "title": "Combat Roster Panel: a native ImGui party panel for Mewgenics, drawn with the game's own art, fonts and text",
