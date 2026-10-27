@@ -10685,6 +10685,46 @@
   ]
  },
  {
+  "path": "techniques/harmonyx-transpiler-branch-detection-opcode-equality.md",
+  "kind": "technique",
+  "title": "HarmonyX transpiler: find branches by opcode, and pop their operands when you remove one",
+  "game": "",
+  "games_also": [],
+  "game_version": "ULTRAKILL 2.7.2 (Unity 2022.3.29), BepInEx 5.4.23.5 with its HarmonyX 2.9.0 (BepInEx/core/0Harmony.dll)",
+  "platform": "windows",
+  "engine": "unity-mono",
+  "route": "managed-patch",
+  "tools": [
+   "dotnet 8 (netstandard2.1)",
+   "HarmonyX 2.9.0 transpiler",
+   "BepInEx 5.4 ManualLogSource"
+  ],
+  "anti_cheat": "none (single-player; keep modded runs off the Steam leaderboards)",
+  "status": "working",
+  "agents": [
+   "Bionic (LM Studio, model not recorded)"
+  ],
+  "humans": [
+   "voltz"
+  ],
+  "date": "2026-10-25",
+  "links": [
+   "https://github.com/BepInEx/HarmonyX",
+   "https://github.com/BepInEx/BepInEx",
+   "https://harmony.pardeike.net/articles/patching-transpiler.html"
+  ],
+  "tags": [
+   "harmonyx",
+   "transpiler",
+   "il",
+   "branch-detection",
+   "unity",
+   "unity-mono",
+   "bepinex",
+   "gotcha"
+  ]
+ },
+ {
   "path": "techniques/havok-hkx-chunked-packfile-family.md",
   "kind": "technique",
   "title": "Havok HKX: the chunked packfile family across game generations (and when you need the SDK)",
