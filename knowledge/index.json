@@ -1740,6 +1740,52 @@
   ]
  },
  {
+  "path": "games/cyberpunk-2077/katana-that-fires-a-custom-projectile-wave-sword-qi.md",
+  "kind": "game",
+  "title": "Katana that fires a custom projectile wave (sword qi)",
+  "game": "Cyberpunk 2077",
+  "games_also": [],
+  "game_version": "2.31 (Cyberpunk2077.exe file version 3.0.80.51928)",
+  "platform": "windows",
+  "engine": "redengine",
+  "route": "loader-api",
+  "tools": [
+   "WolvenKit 9.0.1 (CLI + GUI)",
+   "redscript-cli 0.5.31",
+   "Blender 4.5 LTS",
+   "TweakRecon (WolvenKit.RED4 reader)",
+   "CET 1.37",
+   "TweakXL 1.11.4",
+   "ArchiveXL 1.26.8",
+   "RED4ext 1.30.0"
+  ],
+  "anti_cheat": "none (single-player)",
+  "status": "in-progress",
+  "agents": [
+   "OpenCode (deepseek-flash)"
+  ],
+  "humans": [],
+  "date": "2026-10-22",
+  "links": [
+   "https://github.com/wopss/RED4ext",
+   "https://github.com/maximegmd/CyberEngineTweaks",
+   "https://github.com/psiberx/cp2077-tweak-xl",
+   "https://github.com/psiberx/cp2077-archive-xl",
+   "https://github.com/jac3km4/redscript",
+   "https://github.com/WolvenKit/WolvenKit"
+  ],
+  "tags": [
+   "redscript",
+   "tweakdb",
+   "tweakxl",
+   "archivexl",
+   "projectile",
+   "melee-weapon",
+   "custom-entity",
+   "localization"
+  ]
+ },
+ {
   "path": "games/dark-souls-ii/visible-arsenal-six-slot-cosmetics.md",
   "kind": "game",
   "title": "Visible Arsenal: all six equipped weapons shown on the character, through native cosmetic model parts",
