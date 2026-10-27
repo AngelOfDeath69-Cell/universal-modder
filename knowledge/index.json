@@ -1226,6 +1226,56 @@
   ]
  },
  {
+  "path": "games/call-of-duty-4-modern-warfare/cod4-iw3-vs-waw-t4-engine-architecture-and-modding.md",
+  "kind": "game",
+  "title": "Call of Duty 4: Modern Warfare (IW 3.0) vs World at War (Treyarch T4) Engine Architecture and Modding Comparison",
+  "game": "Call of Duty 4: Modern Warfare",
+  "games_also": [
+   "Call of Duty: World at War"
+  ],
+  "game_version": "Steam (app 7940), patch version not recorded; iw3sp.exe / iw3mp.exe; IWffu100 fastfiles v5",
+  "platform": "windows",
+  "engine": "iw",
+  "route": "data",
+  "tools": [
+   "um fastfile",
+   "um iwi",
+   "um weapon",
+   "CoD4 Mod Tools / ModWarfare",
+   "Python 3.13",
+   "universal-modder"
+  ],
+  "anti_cheat": "PunkBuster on multiplayer, not involved: offline reads of your own files and single-player only",
+  "status": "working",
+  "agents": [
+   "Antigravity (Gemini 3.8 Flash)"
+  ],
+  "humans": [],
+  "date": "2026-10-26",
+  "links": [
+   "https://github.com/Laupetin/OpenAssetTools",
+   "https://github.com/callofduty4x/CoD4x_Server",
+   "https://github.com/iAmThatMichael/T4M"
+  ],
+  "tags": [
+   "cod",
+   "cod4",
+   "modern-warfare",
+   "waw",
+   "iw-engine",
+   "iw3",
+   "t4",
+   "fastfile",
+   "iwd",
+   "gsc",
+   "csc",
+   "iwi",
+   "weapons",
+   "modwarfare",
+   "cod4x"
+  ]
+ },
+ {
   "path": "games/call-of-duty-black-ops/t5-zombies-script-animation-and-audio-recovery.md",
   "kind": "game",
   "title": "Black Ops T5 Zombies from your own fastfiles: GSC/CSC rawfiles, skinned models, XAnim and resident audio",
@@ -1269,6 +1319,137 @@
    "gltf",
    "audio",
    "provenance"
+  ]
+ },
+ {
+  "path": "games/call-of-duty-world-at-war/prototype-107-fastfile-deswizzling-and-asset-recovery.md",
+  "kind": "game",
+  "title": "Call of Duty: World at War Prototype 1.0.7: Xenon FastFile recovery, dual-tier texture deswizzling and UI extraction",
+  "game": "Call of Duty: World at War",
+  "games_also": [
+   "Call of Duty 4: Modern Warfare"
+  ],
+  "game_version": "Xbox 360 developer build 1.0.7 (March 20, 2007; build 7 / 7278), a leaked prototype",
+  "platform": "windows",
+  "engine": "iw",
+  "route": "data",
+  "tools": [
+   "Python 3.13",
+   "texture2ddecoder",
+   "Pillow",
+   "numpy",
+   "universal-modder"
+  ],
+  "anti_cheat": "none (developer build, debug network session)",
+  "status": "working",
+  "agents": [
+   "Antigravity (Gemini 3.8 Flash)"
+  ],
+  "humans": [],
+  "date": "2026-10-15",
+  "tags": [
+   "cod",
+   "waw",
+   "prototype",
+   "fastfile",
+   "xenos",
+   "deswizzle",
+   "textures",
+   "bc1",
+   "bc3",
+   "bc5",
+   "ui",
+   "menu",
+   "renderdoc"
+  ]
+ },
+ {
+  "path": "games/call-of-duty-world-at-war/prototype-107-to-pc-map-conversion-pipeline.md",
+  "kind": "game",
+  "title": "Porting Xbox 360 prototype maps to PC Call of Duty: World at War custom mods",
+  "game": "Call of Duty: World at War",
+  "games_also": [
+   "Call of Duty 4: Modern Warfare"
+  ],
+  "game_version": "PC Steam v1.7 (build 1.7.1263) & Xbox 360 Developer Build 1.0.7 (March 2007)",
+  "platform": "windows",
+  "engine": "iw",
+  "route": "data",
+  "tools": [
+   "CoD WaW Mod Tools v1.4",
+   "cod2map.exe",
+   "cod2rad.exe",
+   "linker_pc.exe",
+   "Python 3.13"
+  ],
+  "anti_cheat": "none",
+  "status": "working",
+  "agents": [
+   "Antigravity (Gemini 3.8 Flash)"
+  ],
+  "humans": [],
+  "date": "2026-10-16",
+  "tags": [
+   "cod",
+   "waw",
+   "cod4",
+   "prototype",
+   "bsp",
+   "cod2map",
+   "cod2rad",
+   "linker",
+   "fastfile",
+   "iwi",
+   "d3dbsp",
+   "custom-map",
+   "cubemap",
+   "skybox",
+   "viewmodel"
+  ]
+ },
+ {
+  "path": "games/call-of-duty-world-at-war/waw-mod-tools-fastfiles-iwds-and-zombies.md",
+  "kind": "game",
+  "title": "Call of Duty: World at War modding architecture: Fastfiles, IWD overrides, GSC/CSC scripting and Zombies pipeline",
+  "game": "Call of Duty: World at War",
+  "games_also": [],
+  "game_version": "1.7.1263 (Steam, app 10090); CoDWaW.exe; IWffu100 fastfiles v387",
+  "platform": "windows",
+  "engine": "iw",
+  "route": "data",
+  "tools": [
+   "CoD WaW Mod Tools (sp_tool.exe, linker_pc.exe, Asset Manager, Converter)",
+   "Python 3.13",
+   "universal-modder",
+   "T4M",
+   "um fastfile"
+  ],
+  "anti_cheat": "PunkBuster on official multiplayer and Plutonium T4's own anti-cheat, not involved: solo play, or a co-op lobby you host with friends who agreed",
+  "status": "working",
+  "agents": [
+   "Antigravity (Gemini 3.8 Flash)"
+  ],
+  "humans": [],
+  "date": "2026-10-27",
+  "links": [
+   "https://github.com/iAmThatMichael/T4M",
+   "https://github.com/JBShady/T4M-Enhanced",
+   "https://github.com/Laupetin/OpenAssetTools"
+  ],
+  "tags": [
+   "cod",
+   "waw",
+   "zombies",
+   "fastfile",
+   "linker",
+   "iwd",
+   "gsc",
+   "csc",
+   "efx",
+   "mod-tools",
+   "nazi-zombies",
+   "textures",
+   "weapons"
   ]
  },
  {
