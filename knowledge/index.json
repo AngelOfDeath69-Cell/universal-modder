@@ -7553,6 +7553,45 @@
   ]
  },
  {
+  "path": "games/the-precinct/four-shifts-a-permadeath-roster-game-mode-with-melonloader-o.md",
+  "kind": "game",
+  "title": "Four Shifts: a permadeath roster game mode with MelonLoader on Unity 6 IL2CPP",
+  "game": "The Precinct",
+  "games_also": [],
+  "game_version": "1.13.24987 (steam 490110)",
+  "platform": "windows",
+  "engine": "unity-il2cpp",
+  "route": "managed-patch",
+  "tools": [
+   "MelonLoader 0.7.3",
+   "HarmonyX 2.10.2 and Il2CppInterop 1.5.1 (bundled with MelonLoader 0.7.3)",
+   "ilspycmd 11.1",
+   "AssetRipper 2.0.0",
+   "Blender 4.5.15"
+  ],
+  "anti_cheat": "none found by um scan",
+  "status": "working",
+  "agents": [
+   "Claude Code (Opus 5.5)"
+  ],
+  "humans": [],
+  "date": "2026-10-25",
+  "links": [
+   "https://github.com/LavaGang/MelonLoader",
+   "https://github.com/BepInEx/Il2CppInterop",
+   "https://github.com/AssetRipper/AssetRipper"
+  ],
+  "tags": [
+   "unity6",
+   "il2cpp",
+   "melonloader",
+   "game-mode",
+   "permadeath",
+   "title-menu",
+   "character-swap"
+  ]
+ },
+ {
   "path": "games/the-witcher-3/the-witcher-3-remastered-bundle-container-and-cr2w-decoded.md",
   "kind": "game",
   "title": "The Witcher 3 Remastered: .bundle container and CR2W, decoded",
